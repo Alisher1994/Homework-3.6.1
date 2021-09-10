@@ -1,0 +1,100 @@
+.intro {
+    width: 1310px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 145px;
+    position: relative;
+
+    &__img {
+        width: 600px;
+        height: 570px;
+    }
+}
+
+.intro__leftbox::before {
+    content: "";
+    z-index: -1;
+    top: -80px;
+    width: 664px;
+    left: -300px;
+    height: 580px;
+    position: absolute;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-image: url(./../img/lapa.png);
+}
+
+.intro__rightbox {
+    max-width: 608px;
+}
+
+.intro__title {
+    margin: 0;
+    width: 608px;
+    font-size: 70px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 64px;
+    font-style: normal;
+    font-family: "Futura PT book", "Arial", sans-serif;
+}
+
+.intro__blue {
+    color: #78c0de;
+}
+
+.intro__text {
+    margin: 0;
+    width: 495px;
+    font-size: 16px;
+    margin-top: 30px;
+    color: #949494;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Futura PT book", "Arial", sans-serif;
+}
+
+.intro__link {
+    width: 190px;
+    height: 50px;
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 38px;
+    line-height: 21px;
+    font-style: normal;
+    padding: 15px 46px;
+    position: relative;
+    border-radius: 3px;
+    background: #000000;
+    text-decoration: none;
+    font-family: "Futura PT book", "Arial", sans-serif;
+}
+
+.intro__link::before {
+    content: "";
+    left: 500px;
+    width: 319px;
+    height: 430px;
+    bottom: -320px;
+    position: absolute;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-image: url(./../img/intro_2.png);
+}
+
+.intro__link:hover {
+    color: #333333;
+    transition: 0.3s;
+    background: #ffbd54;
+}
+
+.intro__link:active {
+    opacity: 0.6;
+}
+
+// end of intro

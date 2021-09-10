@@ -1,0 +1,216 @@
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    position: fixed;
+    text-align: center;
+    background: #f9f8f8;
+
+    &__contact {
+        height: 40px;
+        padding: 10px;
+        display: flex;
+        margin: 0 auto;
+        font-size: 14px;
+        font-weight: 400;
+        color: #333333;
+        max-width: 1310px;
+        line-height: 18px;
+        font-style: normal;
+        justify-content: space-around;
+        font-family: "Futura PT book", "Arial", sans-serif;
+    }
+
+    &__address {
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    &__text {
+        color: #333333;
+        position: relative;
+        text-decoration: none;
+    }
+
+    &__text:hover {
+        color: #ffbd54;
+    }
+
+    &__text:nth-child(1) {
+        margin-right: 20px;
+    }
+
+    &__text:nth-child(2) {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    &__text:nth-child(3) {
+        margin-left: 20px;
+    }
+
+    &__text:active {
+        opacity: 0.6;
+        color: #333333;
+    }
+
+
+    .address_icon::before {
+        top: 2px;
+        content: "";
+        width: 13px;
+        left: -20px;
+        height: 13px;
+        z-index: 100;
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(./../img/address.png);
+    }
+
+    .phone_icon::before {
+        top: 2px;
+        content: "";
+        width: 13px;
+        left: -20px;
+        height: 13px;
+        z-index: 100;
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(./../img/phone.png);
+    }
+
+    .calendar_icon::before {
+        top: 2px;
+        content: "";
+        width: 13px;
+        left: -20px;
+        height: 13px;
+        z-index: 100;
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(./../img/calendar.png);
+    }
+
+    &__navbar {
+        height: 60px;
+        display: flex;
+        margin: 0 auto;
+        max-width: 1216px;
+        align-items: center;
+        align-content: center;
+    }
+
+    &__btn {
+        border: none;
+        position: relative;
+        background-color: #ffffff;
+    }
+
+    &__btn:hover {
+        color: #ffbd54;
+    }
+
+    &__btn:active {
+        opacity: 0.6;
+        color: #333333;
+    }
+
+    &__btn::before {
+        content: "";
+        width: 23px;
+        left: -23px;
+        z-index: 100;
+        height: 21px;
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(./../img/lapa-2.png);
+    }
+
+}
+
+.navbar {
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 250px;
+    list-style-type: none;
+
+
+    &__img {
+        width: 176px;
+        height: 86px;
+        position: absolute;
+        background-size: 176px 86px;
+        background-repeat: no-repeat;
+        justify-content: space-between;
+        background-image: url(./../img/logo.png);
+    }
+
+    &__img:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    &__img:active {
+        opacity: 0.6;
+    }
+
+    &__item>a {
+        color: #000;
+        position: relative;
+        margin-right: 55px;
+        text-decoration: none;
+    }
+
+    &__link:hover {
+        border-bottom: 4px solid #f4ffad;
+    }
+
+    &__link:hover::before {
+        top: 5px;
+        content: "";
+        width: 15px;
+        left: -23px;
+        z-index: 100;
+        height: 15px;
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(./../img/fish-icon.png);
+    }
+
+    &__link:active {
+        opacity: 0.6;
+    }
+}
+
+.header__wrapper {
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.progress-container {
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 2px;
+    z-index: 1000;
+    background: #ffbd54;
+}
+
+
+// end of header

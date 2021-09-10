@@ -1,0 +1,22 @@
+@mixin intro-title-style {
+    margin: 0;
+    font-size: 70px;
+    color: #333333;
+    line-height: 64px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Futura PT book", "Arial", sans-serif;
+}
+// saytdagi h1 tegralri uchun stil
+
+@mixin intro-dfn-style {
+    margin: 0;
+    font-size: 16px;
+    max-width: 411px;
+    color: #949494;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Futura PT book", "Arial", sans-serif;
+}
+// saytdagi h1 ketidan keluvchi p tegralri uchun stil

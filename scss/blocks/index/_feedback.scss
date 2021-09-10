@@ -1,0 +1,82 @@
+.feedback {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./../img/feedback.png);
+
+    &__wrapper {
+        width: 1310px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 264px;
+    }
+
+    &__title {
+        color: #ffffff;
+        font-size: 48px;
+        line-height: 62px;
+        font-weight: bold;
+        font-style: normal;
+        font-family: "Futura PT book", "Arial", sans-serif;
+    }
+
+    &__dfn {
+        max-width: 370px;
+        font-size: 16px;
+        color: #949494;
+        line-height: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-family: "Futura PT book", "Arial", sans-serif;
+
+    }
+
+    &__filter {
+        display: block;
+        filter: grayscale(1);
+    }
+
+    &__forms {
+        padding: 62px 0;
+        position: relative;
+        margin-left: 166px;
+    }
+
+    &__name,
+    &__email {
+        width: 375px;
+        height: 50px;
+        margin-top: 14px;
+        padding: 16px 22px;
+    }
+
+    &__textarea {
+        width: 375px;
+        height: 165px;
+        margin-top: 14px;
+        padding: 16px 22px;
+    }
+
+    &__submit {
+        border: none;
+        height: 50px;
+        width: 226px;
+        margin-top: 30px;
+        color: #ffffff;
+        background: #ffbd54;
+    }
+}
+
+.feedback__form::before {
+    content: "";
+    z-index: 0;
+    top: 20%;
+    left: 100%;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./../img/fish.png);
+}

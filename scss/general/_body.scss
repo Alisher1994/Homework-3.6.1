@@ -1,0 +1,16 @@
+html {
+    height: 100%;
+}
+
+body {
+    // z-index: -1;
+    height: 100%;
+    overflow-x: hidden;
+    background: #f3f3f3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./../img/bg.svg);
+}
+
+

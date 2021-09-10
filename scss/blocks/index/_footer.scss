@@ -1,0 +1,128 @@
+.footer {
+    margin-top: 248px;
+    padding: 62px 0 23px;
+    background: #ebebeb;
+}
+
+.footer__wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1310px;
+    justify-content: space-between;
+}
+
+.footer__list {
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.footer__copyright {
+    margin-left: auto;
+}
+
+.footer__col-4,
+.footer__col-6 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.footer__col-5 {
+    max-width: 157px;
+}
+
+.footer__wrapper-2 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 63px;
+    max-width: 1310px;
+    margin-left: auto;
+    justify-content: end;
+}
+
+.footer__item {
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.footer__link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 21px;
+    font-style: normal;
+    text-decoration: none;
+    font-family: "Futura PT book", "Arial", sans-serif;
+}
+
+.footer__link:hover, .footer__tel:hover {
+    color: #ffbd54;
+}
+
+.footer__link:active {
+    opacity: 0.6;
+    color: #333333;
+}
+
+.footer__tel {
+    color: #333333;
+    text-decoration: none;
+}
+
+.footer__time:first-child::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    left: -25px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./../img/calendar.png);
+}
+
+.footer__col-5 {
+    max-width: 158px;
+    position: relative;
+}
+
+.footer__address {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 21px;
+    font-style: normal;
+    align-items: center;
+    font-family: "Futura PT book", "Arial", sans-serif;
+
+}
+
+.footer__address:first-child::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    left: -25px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./../img/address.png);
+}
+
+.footer__col-6 {
+    position: relative;
+}
+
+.footer__tel:first-child::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    left: -25px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./../img/phone.png);
+}

@@ -1,0 +1,50 @@
+.global-wrapper {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.contact-location-wrapper {
+    width: 1310px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 56px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-location::before {
+    content: "";
+    z-index: 1;
+    width: 443px;
+    height: 342px;
+    bottom: 420px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./../img/contact-bg2.png);
+}
+
+
+
+.contact-location {
+    width: 1310px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contact-location-title {
+    font-size: 48px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 62px;
+    font-style: normal;
+    text-align: center;
+    align-items: center;
+    font-family: "Futura PT book", "Arial" sans-serif;
+}

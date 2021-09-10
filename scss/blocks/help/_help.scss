@@ -1,0 +1,112 @@
+.help-intro {
+   display: flex;
+   margin: 0 auto;
+   max-width: 1310px;
+   margin-top: 218px;
+   justify-content: space-around;
+}
+
+.help__title {
+   @include intro-title-style
+}
+
+
+.help {
+   display: flex;
+   margin: 0 auto;
+   margin-top: 80px;
+   max-width: 1310px;
+   border-radius: 5px;
+   background: #ffffff;
+}
+
+.help:hover {
+   filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+   transition: 0.3s;
+}
+
+.help__right {
+   padding: 68px 80px;
+}
+
+.help__tag {
+   margin-right: 10px;
+   display: inline-block;
+   text-decoration: none;
+}
+
+.help__text {
+   width: 325px;
+   font-size: 30px;
+   color: #000000;
+   margin-top: 35px;
+   line-height: 38px;
+   font-weight: bold;
+   font-style: normal;
+   margin-bottom: 20px;
+   font-family: "Futura PT demi", "Arial", sans-serif;
+}
+
+.help__dfn {
+   margin-bottom: 48px;
+}
+
+.help__time {
+   display: flex;
+   font-size: 14px;
+   font-weight: 400;
+   color: #949494;
+   line-height: 18px;
+   font-style: normal;
+   justify-content: end;
+   box-sizing: border-box;
+   font-family: "Futura PT book", "Arial", sans-serif;
+}
+
+.help__link {
+   display: block;
+   color: #000000;
+   position: relative;
+   font-weight: 600;
+   text-decoration: none;
+   transform: translate(24px);
+}
+
+.help__link::before {
+   content: "";
+   width: 24px;
+   left: -30px;
+   height: 20px;
+   position: absolute;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-image: url(./../img/pet.png);
+
+}
+
+.help__btn {
+   border: none;
+   width: 200px;
+   height: 50px;
+   margin: 0 auto;
+   display: block;
+   font-size: 16px;
+   font-weight: 450;
+   color: #ffffff;
+   margin-top: 116px;
+   line-height: 21px;
+   border-radius: 3px;
+   font-style: normal;
+   background: #333333;
+   font-family: Futura PT book, Arial, sans-serif;
+}
+
+.help__btn:hover {
+   color: #333333;
+   background: #ffbd54;
+}
+
+.help__btn:active {
+   opacity: 0.6;
+}
